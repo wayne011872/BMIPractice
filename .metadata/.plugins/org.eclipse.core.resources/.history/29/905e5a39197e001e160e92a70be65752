@@ -1,0 +1,9 @@
+package Human;
+
+public interface BMI {
+	public static int calculateBMI(float height,float weight ) {
+		int BMI = 0;
+		BMI = (int)Math.round(Math.pow(weight, 2) / height);
+		return BMI;
+	}
+}

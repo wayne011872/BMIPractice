@@ -1,0 +1,34 @@
+package main;
+
+import util.Console;
+import BMI.BMI;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		float height = 0;
+		float weight = 0;
+		Console.WriteLine("請輸入身高: ");
+		try {
+			height = Float.parseFloat(Console.ReadLine());
+		}catch(NumberFormatException e) {
+			Console.WriteLine("轉換浮點數錯誤");
+		}
+		Console.WriteLine("請輸入體重: ");
+		try {
+			weight = Float.parseFloat(Console.ReadLine());
+		}catch(NumberFormatException e) {
+			Console.WriteLine("轉換浮點數錯誤");
+		}
+		int BMI = calculateBMI(height,weight);
+		Console.WriteLine("您的BMI為: " + BMI);
+	}
+	
+	public static int calculateBMI(float height,float weight ) {
+		int BMI = 0;
+		BMI = (int)Math.round(Math.pow(weight, 2) / height);
+		return BMI;
+	}
+
+}

@@ -1,0 +1,25 @@
+package main;
+
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan  = new Scanner(System.in);
+		System.out.println("Please Enter Your Height: ");
+		float height = scan.nextFloat();
+		System.out.println("Please Enter Your Weight: ");
+		float weight = scan.nextFloat();
+		scan.close();
+		int BMI = calculateBMI(height,weight);
+		System.out.print("Your BMI is: " + BMI);
+	}
+	
+	public static int calculateBMI(float height,float weight ) {
+		int BMI = 0;
+		BMI = (int)Math.round(Math.pow(weight, 2) / height);
+		return BMI;
+	}
+
+}

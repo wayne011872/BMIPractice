@@ -1,0 +1,11 @@
+package Human;
+
+public class Human {
+	String height;
+	String weight;
+	Human(){}
+	Human(String height,String weight){
+		this.height = height;
+		this.weight = weight;
+	}
+}

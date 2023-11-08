@@ -1,0 +1,10 @@
+package Human;
+
+public class BMI {
+	String height;
+	String weight;
+	BMI(String height,String weight){
+		this.height = height;
+		this.weight = weight;
+	}
+}

@@ -1,0 +1,15 @@
+package util;
+
+import java.util.Scanner;
+
+public class Console<E> {
+	public static void WriteLine(String text) {
+		System.out.println(text);
+	}
+	public String ReadLine() {
+		Scanner scan  = new Scanner(System.in);
+		String input = scan.next();
+		scan.close();
+		return input;
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;BMI&apos; to &apos;Human&apos;&#x0D;&#x0A;- Original project: &apos;BMIPracticeJava&apos;&#x0D;&#x0A;- Original element: &apos;BMIPracticeJava/src/BMI&apos;&#x0D;&#x0A;- Renamed element: &apos;BMIPracticeJava/src/Human&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;BMI&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;BMI" name="Human" qualified="false" references="true" stamp="1699434595714" textual="false" version="1.0"/>
+</session>
